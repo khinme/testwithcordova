@@ -1,0 +1,194 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta http-equiv="Content-Security-Policy" content="default-src * data: gap: content: https://ssl.gstatic.com; style-src * 'unsafe-inline'; script-src * 'unsafe-inline' 'unsafe-eval'">
+    <script src="components/loader.js"></script>
+    
+    <link rel="stylesheet" href="components/loader.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script>
+       
+//         function sendEmail() {
+//         cordova.plugins.email.open({
+//     to:      'khinmemehtwe1745@gmail.com',
+//     cc:      'sendingcode123@gmail.com',
+//      bcc:     ['sendingcode123@gmail.com', 'sendingcode123@gmail.com'],
+//     subject: 'Greetings',
+//      body:    'How are you? Nice greetings from Leipzig'
+//  })
+//           .then(function (message) {
+//            alert("mail sent successfully")
+//          });
+//      }
+
+
+//   function onLoad() {
+//           document.addEventListener("deviceready", onDeviceReady, false);
+//      }
+
+//       function onDeviceReady() {
+//           cordova.plugins.email.isAvailable(
+//           function (isAvailable) {
+//               alert("is email mobile available? " + (isAvailable ? "Yes" : "No"));
+//               if(isAvailable){
+//                cordova.plugin.email.open({
+//                    to:      'khinmemehtwe1745@gmail.com',
+//                    subject: 'Greetings',
+//                    body:    'How are you? Nice greetings from Leipzig'
+//                }, callback, scope);
+//              }
+//           }
+//      );
+//       }
+// function Mailer(){
+//   var mail_address = 'khinmemehtwe1745@gmail.com';
+//   var mail_content = "Android_testTesttest";
+
+//   if (monaca.isAndroid === true) {
+//     window.plugins.webintent.startActivity({
+//       action: window.plugins.webintent.ACTION_VIEW,
+//       url: 'mailto:' + mail_address + '?body=' + mail_content
+//       },
+//       function() {},
+//       function() {}
+//     );
+//   } else if ( monaca.isIOS === true ) {
+//     var mailto = 'test_iOS@testes.tes';
+//     mailto = mailto + 
+//       "?subject=題目&body=本文。%0D%0A改行も試みてます。";
+
+//     location.href= mailto;
+//   }
+// }
+//  document.addEventListener ("deviceready", onDeviceReady, false);
+
+//     //these functions runs when Cordova is ready
+//     function onDeviceReady () {
+//       alert ('Cordova is ready!');
+//     }
+
+//     function snapPicture () {
+//       navigator.camera.getPicture (successCallback, FailCallback, {destinationType: Camera.DestinationType.DATA_URL});
+
+//       //Success Callback
+//       function successCallback (imageData) {
+//         //Display image
+//         var image = document.getElementById ('picture');
+//         image.src = "data:image/jpeg;base64, " + imageData;
+//       }
+
+//       //Error CallBack
+//       function FailCallback (message) {
+//         alert ('Error!!!: ' + message);
+//       }
+//     }
+// function sendMail() {
+//     window.plugins.webintent.startActivity (
+//         {
+//              action: window.plugins.webintent.ACTION_VIEW,
+//              url: 'mailto:khinmemehtwe1745@gmail.com'
+//          },       
+//          function () {},
+//          function () {alert ('Failed to open URL via Android Intent');}
+//     );
+//  }
+// function sendMail(){
+// 	var mailStart = "mailto:khinmemehtwe1745@gmail.com";
+// 	javascript:location.href=mailStart;
+// 	window.open = cordova.InAppBrowser.open;
+// 	window.open(mailStart, "_system", 'location=yes');
+// }
+// function sendEmail() {
+// 	Email.send({
+//     SecureToken : "57e1d252-ed1a-4ae4-8f1b-905a17f86fda",
+//     To : 'khinmemehtwe1745@gmail.com',
+//     From : "sendingcode123@gmail.com",
+//     Subject : "Test Email",
+//     Body : "<html><h2>Header</h2><strong>Bold text</strong><br></br><em>Italic</em></html>"
+//     }).then(
+//         message => alert("mail sent successfully")
+//     );
+// }
+
+// function sendMail() {
+//     var link = "mailto:khinmemehtwe1745@gmail.com"
+//              + "?cc=sendingcode123@gmail.com"
+//              + "&subject=" + encodeURIComponent("This is my subject")
+            
+//     ;
+    
+//     window.location.href = link;
+// }
+// function sendMail() {
+
+//   //getting values from input fields
+
+//   var sender=document.getElementById("sender").value;
+
+//   var password=document.getElementById("password").value;
+
+//   var receiver=document.getElementById("reciever").value;
+
+//   var content=document.getElementById("Message").value;
+
+ 
+//   //Sending email
+
+//   Email.send({
+
+//   Host: "smtp.gmail.com",
+
+//   Username: sender,
+
+//   Password:password,
+
+//   To: receiver,
+
+//   From: sender,
+
+//   Subject: "Check Email Sending",
+
+//   Body: content,
+
+//   }).then(function (message) {
+
+//   alert("Email sent successfully")
+
+//   });
+
+// }
+
+    </script>
+</head>
+<body>
+    <!-- <textarea id="myText">
+    Lorem ipsum...
+</textarea> -->
+<!-- <button onclick="sendMail(); return false">Send</button> -->
+
+<!-- <input type="button" value="Send Email" onclick="sendMail()"> -->
+
+	 <!-- <h1>Sample</h1>
+    
+  <input type="button" onclick="onLoad()" value="send" ><br><br>  -->
+  <form>
+
+         <!-- <input type="Email" id="sender" name="sender" placeholder="sender123@gmail.com"><br>
+
+        <input type="Password" id="password" name="password" placeholder="type password here"><br>
+
+        <input type="Email" id="reciever" name="reciever" placeholder="Reciever321@gmail.com"><br>
+
+        <input type="text" name="Message" placeholder="Enter Email Content" id="Message"><br> 
+
+        <input type="button" id="button" value="Send Email" > -->
+        <button>Send Mail</button>
+
+    </form>
+    <script src="js/testmail.js"></script>
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+</body>
+</html>
